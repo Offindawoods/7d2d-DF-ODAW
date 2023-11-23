@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configs>
+
+	<append xpath="items">
+		<item name="Lawnmower">
+			<property name="Tags" value="knife,axe,melee,light,tool,perkMotherLode,perkDeepCuts,perkTheHuntsman"/>
+			<property name="DisplayType" value="meleeRepairTool"/>
+			<property name="HoldType" value="47"/>
+			<property name="Meshfile" value="#Other/Items?Weapons/Melee/Knives/machetePrefab.prefab"/>
+			<property name="CustomIcon" value="scrapMachete"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="RepairTools" value="resourceScrapIron"/>
+			<property name="EconomicValue" value="250"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+			<property name="DegradationBreaksAfter" value="false"/>
+			<property name="SoundJammed" value="ItemNeedsRepair"/>
+			<property name="SoundDestroy" value="wooddestroy1"/>
+			<property name="FuelValue" value="50"/>
+			<property class="Action0">
+				<property name="Class" value="DynamicMelee"/>
+				<property name="Sphere" value="0.1"/>
+				<property name="Sound_start" value="swoosh"/>
+				<property name="ToolCategory.harvestingTools" value=".01" param1="1"/>
+
+			</property>
+				<property class="Action1">
+                <property name="Class" value="Repair"/>
+                <property name="Repair_amount" value="100"/>
+                <property name="Sound_start" value="repair_block"/>
+                <property name="UsePowerAttackAnimation" value="false"/>
+			</property>
+
+			<effect_group name="Base Effects">
+				<passive_effect name="MaxRange" operation="base_set" value="7"/>
+				<passive_effect name="BlockRange" operation="base_set" value="7"/>
+
+				<passive_effect name="EntityDamage" operation="base_set" value="0"/> 
+				<passive_effect name="BlockDamage" operation="base_set" value="0"/>
+				<passive_effect name="AttacksPerMinute" operation="base_set" value="240"/> 
+				<passive_effect name="HarvestCount" operation="base_set" value=".35" tags="butcherHarvest"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="0" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.33" tags="stone"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="-.5" tags="metal"/>
+
+				<passive_effect name="StaminaLoss" operation="base_set" value="0.01" tags="primary"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="700,2000" tier="1,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0" />
+			</effect_group>
+			<property name="Group" value="Tools/Traps,Basics"/>
+			<property name="ActionSkillGroup" value="Construction Tools"/>
+			<property name="CraftingSkillGroup" value="craftSkillTools"/>
+			<property name="RepairExpMultiplier" value="5.5"/>
+		</item>
+	</append>
+	
+</configs>

@@ -1,0 +1,375 @@
+<config> 
+	<set xpath="/blockplaceholders/placeholder[@name='carsRandomHelper']">
+		<block name="cntCar03SedanDamage0v01" prob=".2"/>
+		<block name="cntCar03SedanDamage0v02" prob=".2"/>
+		<block name="cntCar03SedanDamage0v03" prob=".2"/>
+		<block name="cntCar03SedanDamage0v04" prob=".2"/>
+		<block name="cntCar03SedanDamage0v05" prob=".2"/>
+		<block name="cntCar03SedanDamage0v06" prob=".2"/>
+		<block name="cntCar03SedanDamage0v07" prob=".2"/>
+
+		<block name="cntCar03SedanDamage1v01" prob="1"/>
+		<block name="cntCar03SedanDamage1v02" prob="1"/>
+		<block name="cntCar03SedanDamage1v03" prob="1"/>
+		<block name="cntCar03SedanDamage1v04" prob="1"/>
+		<block name="cntCar03SedanDamage1v05" prob="1"/>
+		<block name="cntCar03SedanDamage1v06" prob="1"/>
+		<block name="cntCar03SedanDamage1v07" prob="1"/>
+
+		<block name="cntCar03SedanDamage2v01" prob=".4"/>
+		<block name="cntCar03SedanDamage2v02" prob=".4"/>
+		<block name="cntCar03SedanDamage2v03" prob=".4"/>
+		<block name="cntCar03SedanDamage2v04" prob=".4"/>
+		<block name="cntCar03SedanDamage2v05" prob=".4"/>
+		<block name="cntCar03SedanDamage2v06" prob=".4"/>
+		<block name="cntCar03SedanDamage2v07" prob=".4"/>
+		
+		<block name="DFcarTaxi" prob="0.15"/>
+		<block name="DFcarTaxiDmg" prob="0.35"/>
+		<block name="DFcarPolice" prob="0.15"/>
+		<block name="DFcarPoliceDmg" prob="0.35"/>
+		<block name="DFcarMuscleBlack" prob="0.15"/>
+		<block name="DFcarMuscleBlue" prob="0.15"/>
+		<block name="DFcarMuscleBlackDmg" prob="0.35"/>
+		<block name="DFcarMuscleBlueDmg" prob="0.35"/>
+		<block name="DFMotorbike" prob="0.15"/>
+		<block name="DFMotorbikeDmg" prob="0.25"/>
+	</set>
+	
+	<insertAfter xpath="/blockplaceholders/placeholder[@name='carsRandomHelper']">
+		<placeholder name="carsRandomHelperDF">
+			<block name="cntCar03SedanDamage0v01" prob=".2"/>
+			<block name="cntCar03SedanDamage0v02" prob=".2"/>
+			<block name="cntCar03SedanDamage0v03" prob=".2"/>
+			<block name="cntCar03SedanDamage0v04" prob=".2"/>
+			<block name="cntCar03SedanDamage0v05" prob=".2"/>
+			<block name="cntCar03SedanDamage0v06" prob=".2"/>
+			<block name="cntCar03SedanDamage0v07" prob=".2"/>
+
+			<block name="cntCar03SedanDamage1v01" prob="1"/>
+			<block name="cntCar03SedanDamage1v02" prob="1"/>
+			<block name="cntCar03SedanDamage1v03" prob="1"/>
+			<block name="cntCar03SedanDamage1v04" prob="1"/>
+			<block name="cntCar03SedanDamage1v05" prob="1"/>
+			<block name="cntCar03SedanDamage1v06" prob="1"/>
+			<block name="cntCar03SedanDamage1v07" prob="1"/>
+
+			<block name="cntCar03SedanDamage2v01" prob=".4"/>
+			<block name="cntCar03SedanDamage2v02" prob=".4"/>
+			<block name="cntCar03SedanDamage2v03" prob=".4"/>
+			<block name="cntCar03SedanDamage2v04" prob=".4"/>
+			<block name="cntCar03SedanDamage2v05" prob=".4"/>
+			<block name="cntCar03SedanDamage2v06" prob=".4"/>
+			<block name="cntCar03SedanDamage2v07" prob=".4"/>
+			
+			<block name="DFcarTaxi" prob="0.15"/>
+			<block name="DFcarTaxiDmg" prob="0.35"/>
+			<block name="DFcarPolice" prob="0.15"/>
+			<block name="DFcarPoliceDmg" prob="0.35"/>
+			<block name="DFcarMuscleBlack" prob="0.15"/>
+			<block name="DFcarMuscleBlue" prob="0.15"/>
+			<block name="DFcarMuscleBlackDmg" prob="0.35"/>
+			<block name="DFcarMuscleBlueDmg" prob="0.35"/>
+			<block name="cntAmbulanceTruck01" prob="0.05"/>
+			<block name="DFcarFireTruck" prob="0.1"/>
+			<block name="DFcarFireTruckDmg" prob="0.05"/>
+			<block name="DFcarSchoolbus" prob="0.1"/>
+			<block name="DFcarSchoolbusDmg" prob="0.05"/>
+			<block name="DFcarMailtruck" prob="0.1"/>
+			<block name="DFcarMailtruckDmg" prob="0.05"/>
+			<block name="DFMotorbike" prob="0.15"/>
+			<block name="DFMotorbikeDmg" prob="0.25"/>
+			<block name="DFAPCLocked" prob="0.02"/>
+			<block name="DFScoutLocked" prob="0.02"/>
+			<block name="DFTruckLocked" prob="0.02"/>
+			<block name="DFcarGarbageTruck" prob="0.15"/>
+			<block name="DFcarGarbageTruckDmg" prob="0.25"/>
+			
+			<block name="cntBrokenBicycle" prob="0.25"/>
+			<block name="cntBrokenMinibike" prob="0.1"/>
+			<block name="cntBrokenMotorcycle" prob="0.05"/>
+		</placeholder>
+	</insertAfter>
+
+	<insertBefore xpath="/blockplaceholders/placeholder[@name='cntWorkstationsBustedRandomLootHelper']">
+		<placeholder name="cntWorkstationsRandomLootHelper">
+			<block name="forge" prob="1"/>
+			<block name="workbench" prob="1"/>
+			<block name="chemistryStation" prob=".7"/>
+			<block name="cementMixer" prob=".7"/>
+		</placeholder>
+	</insertBefore>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntWorkstationsBustedRandomLootHelper']">
+		<block name="forge" prob=".1"/>
+		<block name="cntCollapsedForge" prob="1"/>
+		<block name="workbench" prob=".1"/>
+		<block name="cntCollapsedWorkbench" prob="1"/>
+		<block name="cementMixer" prob=".06"/>
+		<block name="cntCollapsedCementMixer" prob=".6"/>
+		<block name="chemistryStation" prob=".06"/>
+		<block name="cntCollapsedChemistryStation" prob=".6"/>
+	</set>
+
+	<set xpath="/blockplaceholders/placeholder[@name='cntForgeBustedRandomLootHelper']">
+		<block name="forge" prob=".2"/>
+		<block name="cntCollapsedForge" prob="1"/>
+	</set>
+
+	<set xpath="/blockplaceholders/placeholder[@name='cntWorkbenchBustedRandomLootHelper']">
+		<block name="workbench" prob=".2"/>
+		<block name="cntCollapsedWorkbench" prob="1"/>
+	</set>
+
+	<set xpath="/blockplaceholders/placeholder[@name='cntCementMixerBustedRandomLootHelper']">
+		<block name="cementMixer" prob=".2"/>
+		<block name="cntCollapsedCementMixer" prob="1"/>
+	</set>
+
+	<set xpath="/blockplaceholders/placeholder[@name='cntChemistryStationBustedRandomLootHelper']">
+		<block name="chemistryStation" prob=".2"/>
+		<block name="cntCollapsedChemistryStation" prob="1"/>
+	</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookcaseGoodRandomLootHelper']">
+		<block name="cntBookcaseFull" prob=".75"/>
+		<block name="cntBookcaseEmpty" prob=".25"/>
+	</set>
+
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookcasePoorRandomLootHelper']">
+		<block name="cntBookcaseFull" prob=".75"/>
+		<block name="cntBookcaseEmpty" prob=".25"/>
+	</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntVendingMachine2RandomLootHelper']">
+		<block name="cntVendingMachine2Broken" prob="1"/>
+	</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookShelfSingleBottomRandomLootHelper']">
+		<block name="cntBookShelfSingleBottomEmpty" prob=".2"/>
+		<block name="cntBookShelfSingleBottomFull01" prob=".4"/>
+		<block name="cntBookShelfSingleBottomFull02" prob=".4"/>
+	</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookShelfSingleTopRandomLootHelper']">
+		<block name="cntBookShelfSingleTopEmpty" prob=".2"/>
+		<block name="cntBookShelfSingleTopFull01" prob=".4"/>
+		<block name="cntBookShelfSingleTopFull02" prob=".4"/>
+	</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookShelfDoubleBottomRandomLootHelper']">
+		<block name="cntBookShelfDoubleBottomEmpty" prob=".2"/>
+		<block name="cntBookShelfDoubleBottomFull01" prob=".4"/>
+		<block name="cntBookShelfDoubleBottomFull02" prob=".4"/>
+	</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntBookShelfSingleCapBottomRandomLootHelper']">
+		<block name="cntBookShelfSingleCapBottomEmpty" prob=".2"/>
+		<block name="cntBookShelfSingleCapBottomFull01" prob=".4"/>
+		<block name="cntBookShelfSingleCapBottomFull02" prob=".4"/>
+	</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='plantedtreeGrassSeedRandomHelper']">
+		<block name="treeSnowyGrassDiagonal" biome="snow" randomrotation="true"/>
+		<block name="treeTallGrassDiagonal" biome="pine_forest" randomrotation="true"/>
+		<block name="treeBrownGrassDiagonal" biome="desert" randomrotation="true"/>
+		<block name="treeBrownGrassDiagonal" biome="water" randomrotation="true"/>
+		<block name="treeBrownGrassDiagonal" biome="underwater" randomrotation="true"/>
+		<block name="treeBrownGrassDiagonal" biome="wasteland" randomrotation="true"/>
+		<block name="treeBrownGrassDiagonal" biome="burnt_forest" randomrotation="true"/>
+	</set>
+	
+	<set xpath="/blockplaceholders/placeholder[@name='cntGasPumpRandomLootHelper']">
+		<block name="cntGasPumpEmpty" prob=".90"/>
+		<block name="cntGasPumpFull" prob=".11"/>
+	</set>
+
+	<append xpath="/blockplaceholders">	
+		<!-- Darkness Falls Blocks 
+		<placeholder name="carsRandomHelperForest">
+			<block name="cntCar03SedanDamage0v01" prob=".2"/>
+			<block name="cntCar03SedanDamage0v02" prob=".2"/>
+			<block name="cntCar03SedanDamage0v03" prob=".2"/>
+			<block name="cntCar03SedanDamage0v04" prob=".2"/>
+			<block name="cntCar03SedanDamage0v05" prob=".2"/>
+			<block name="cntCar03SedanDamage0v06" prob=".2"/>
+			<block name="cntCar03SedanDamage0v07" prob=".2"/>
+
+			<block name="cntCar03SedanDamage1v01" prob="1"/>
+			<block name="cntCar03SedanDamage1v02" prob="1"/>
+			<block name="cntCar03SedanDamage1v03" prob="1"/>
+			<block name="cntCar03SedanDamage1v04" prob="1"/>
+			<block name="cntCar03SedanDamage1v05" prob="1"/>
+			<block name="cntCar03SedanDamage1v06" prob="1"/>
+			<block name="cntCar03SedanDamage1v07" prob="1"/>
+
+			<block name="cntCar03SedanDamage2v01" prob=".4"/>
+			<block name="cntCar03SedanDamage2v02" prob=".4"/>
+			<block name="cntCar03SedanDamage2v03" prob=".4"/>
+			<block name="cntCar03SedanDamage2v04" prob=".4"/>
+			<block name="cntCar03SedanDamage2v05" prob=".4"/>
+			<block name="cntCar03SedanDamage2v06" prob=".4"/>
+			<block name="cntCar03SedanDamage2v07" prob=".4"/>
+			
+			<block name="DFcarTaxi" prob="0.15"/>
+			<block name="DFcarTaxiDmg" prob="0.35"/>
+			<block name="DFcarPolice" prob="0.15"/>
+			<block name="DFcarPoliceDmg" prob="0.35"/>
+			<block name="DFcarMuscleBlack" prob="0.15"/>
+			<block name="DFcarMuscleBlue" prob="0.15"/>
+			<block name="DFcarMuscleBlackDmg" prob="0.35"/>
+			<block name="DFcarMuscleBlueDmg" prob="0.35"/>
+			<block name="cntAmbulanceTruck01" prob="0.05"/>
+			<block name="DFcarFireTruck" prob="0.1"/>
+			<block name="DFcarFireTruckDmg" prob="0.05"/>
+			<block name="DFcarSchoolbus" prob="0.1"/>
+			<block name="DFcarSchoolbusDmg" prob="0.05"/>
+			<block name="DFcarMailtruck" prob="0.1"/>
+			<block name="DFcarMailtruckDmg" prob="0.05"/>
+			<block name="DFMotorbike" prob="0.15"/>
+			<block name="DFMotorbikeDmg" prob="0.25"/>
+			<block name="DFAPCLocked" prob="0.02"/>
+			<block name="DFScoutLocked" prob="0.02"/>
+			<block name="DFTruckLocked" prob="0.02"/>
+			<block name="DFcarGarbageTruck" prob="0.15"/>
+			<block name="DFcarGarbageTruckDmg" prob="0.25"/>
+			
+			<block name="cntBrokenBicycle" prob="0.25"/>
+			<block name="cntBrokenMinibike" prob="0.1"/>
+		</placeholder>
+		
+		<placeholder name="carsRandomHelperDesert">
+			<block name="cntCar03SedanDamage0v01" prob=".2"/>
+			<block name="cntCar03SedanDamage0v02" prob=".2"/>
+			<block name="cntCar03SedanDamage0v03" prob=".2"/>
+			<block name="cntCar03SedanDamage0v04" prob=".2"/>
+			<block name="cntCar03SedanDamage0v05" prob=".2"/>
+			<block name="cntCar03SedanDamage0v06" prob=".2"/>
+			<block name="cntCar03SedanDamage0v07" prob=".2"/>
+
+			<block name="cntCar03SedanDamage1v01" prob="1"/>
+			<block name="cntCar03SedanDamage1v02" prob="1"/>
+			<block name="cntCar03SedanDamage1v03" prob="1"/>
+			<block name="cntCar03SedanDamage1v04" prob="1"/>
+			<block name="cntCar03SedanDamage1v05" prob="1"/>
+			<block name="cntCar03SedanDamage1v06" prob="1"/>
+			<block name="cntCar03SedanDamage1v07" prob="1"/>
+
+			<block name="cntCar03SedanDamage2v01" prob=".4"/>
+			<block name="cntCar03SedanDamage2v02" prob=".4"/>
+			<block name="cntCar03SedanDamage2v03" prob=".4"/>
+			<block name="cntCar03SedanDamage2v04" prob=".4"/>
+			<block name="cntCar03SedanDamage2v05" prob=".4"/>
+			<block name="cntCar03SedanDamage2v06" prob=".4"/>
+			<block name="cntCar03SedanDamage2v07" prob=".4"/>
+			
+			<block name="DFcarTaxi" prob="0.15"/>
+			<block name="DFcarTaxiDmg" prob="0.35"/>
+			<block name="DFcarPolice" prob="0.15"/>
+			<block name="DFcarPoliceDmg" prob="0.35"/>
+			<block name="DFcarMuscleBlack" prob="0.15"/>
+			<block name="DFcarMuscleBlue" prob="0.15"/>
+			<block name="DFcarMuscleBlackDmg" prob="0.35"/>
+			<block name="DFcarMuscleBlueDmg" prob="0.35"/>
+			<block name="cntAmbulanceTruck01" prob="0.05"/>
+			<block name="DFcarFireTruck" prob="0.1"/>
+			<block name="DFcarFireTruckDmg" prob="0.05"/>
+			<block name="DFcarSchoolbus" prob="0.1"/>
+			<block name="DFcarSchoolbusDmg" prob="0.05"/>
+			<block name="DFcarMailtruck" prob="0.1"/>
+			<block name="DFcarMailtruckDmg" prob="0.05"/>
+			<block name="DFMotorbike" prob="0.15"/>
+			<block name="DFMotorbikeDmg" prob="0.25"/>
+			<block name="DFAPCLocked" prob="0.02"/>
+			<block name="DFScoutLocked" prob="0.02"/>
+			<block name="DFTruckLocked" prob="0.02"/>
+			<block name="DFcarGarbageTruck" prob="0.15"/>
+			<block name="DFcarGarbageTruckDmg" prob="0.25"/>
+			
+			<block name="cntBrokenMinibike" prob="0.25"/>
+			<block name="cntBrokenMotorcycle" prob="0.1"/>
+		</placeholder>
+		
+		<placeholder name="carsRandomHelperSnow">
+			<block name="cntCar03SedanDamage0v01" prob=".2"/>
+			<block name="cntCar03SedanDamage0v02" prob=".2"/>
+			<block name="cntCar03SedanDamage0v03" prob=".2"/>
+			<block name="cntCar03SedanDamage0v04" prob=".2"/>
+			<block name="cntCar03SedanDamage0v05" prob=".2"/>
+			<block name="cntCar03SedanDamage0v06" prob=".2"/>
+			<block name="cntCar03SedanDamage0v07" prob=".2"/>
+
+			<block name="cntCar03SedanDamage1v01" prob="1"/>
+			<block name="cntCar03SedanDamage1v02" prob="1"/>
+			<block name="cntCar03SedanDamage1v03" prob="1"/>
+			<block name="cntCar03SedanDamage1v04" prob="1"/>
+			<block name="cntCar03SedanDamage1v05" prob="1"/>
+			<block name="cntCar03SedanDamage1v06" prob="1"/>
+			<block name="cntCar03SedanDamage1v07" prob="1"/>
+
+			<block name="cntCar03SedanDamage2v01" prob=".4"/>
+			<block name="cntCar03SedanDamage2v02" prob=".4"/>
+			<block name="cntCar03SedanDamage2v03" prob=".4"/>
+			<block name="cntCar03SedanDamage2v04" prob=".4"/>
+			<block name="cntCar03SedanDamage2v05" prob=".4"/>
+			<block name="cntCar03SedanDamage2v06" prob=".4"/>
+			<block name="cntCar03SedanDamage2v07" prob=".4"/>
+			
+			<block name="DFcarTaxi" prob="0.15"/>
+			<block name="DFcarTaxiDmg" prob="0.35"/>
+			<block name="DFcarPolice" prob="0.15"/>
+			<block name="DFcarPoliceDmg" prob="0.35"/>
+			<block name="DFcarMuscleBlack" prob="0.15"/>
+			<block name="DFcarMuscleBlue" prob="0.15"/>
+			<block name="DFcarMuscleBlackDmg" prob="0.35"/>
+			<block name="DFcarMuscleBlueDmg" prob="0.35"/>
+			<block name="cntAmbulanceTruck01" prob="0.05"/>
+			<block name="DFcarFireTruck" prob="0.1"/>
+			<block name="DFcarFireTruckDmg" prob="0.05"/>
+			<block name="DFcarSchoolbus" prob="0.1"/>
+			<block name="DFcarSchoolbusDmg" prob="0.05"/>
+			<block name="DFcarMailtruck" prob="0.1"/>
+			<block name="DFcarMailtruckDmg" prob="0.05"/>
+			<block name="DFMotorbike" prob="0.15"/>
+			<block name="DFMotorbikeDmg" prob="0.25"/>
+			<block name="DFAPCLocked" prob="0.02"/>
+			<block name="DFScoutLocked" prob="0.02"/>
+			<block name="DFTruckLocked" prob="0.02"/>
+			<block name="DFcarGarbageTruck" prob="0.15"/>
+			<block name="DFcarGarbageTruckDmg" prob="0.25"/>
+
+			<block name="cntBrokenMotorcycle" prob="0.25"/>
+		</placeholder> -->
+	
+		<placeholder name="chemSetRandomHelper">
+			<block name="medicalPileSmall" prob="1"/>
+			<block name="medicalPileMedium" prob="1"/>
+			<block name="medicalPileLarge" prob="1"/>
+		</placeholder>
+	
+		<placeholder name="cntLatheBustedRandomLootHelper">
+			<block name="DFLathe" prob=".05"/>
+			<block name="cntCollapsedLathe" prob="1"/>
+		</placeholder>
+
+		<placeholder name="cntScifiLockersHelper">
+			<block name="ScifiLockerEmpty" prob=".33"/>
+			<block name="ScifiLocker" prob=".67"/>
+		</placeholder>
+		
+		<placeholder name="cntScifiCratesHelper">
+			<block name="ScifiCrateEmpty" prob=".33"/>
+			<block name="ScifiCrate" prob=".67"/>
+		</placeholder>
+		
+		<placeholder name="cntStoveOldRandomLootHelper">
+			<block name="cntStoveOldVer1Closed" prob=".6"/>
+			<block name="cntStoveOldVer2Open" prob=".4"/>
+		</placeholder>
+		
+		<placeholder name="cntMicrowaveOvenRandomLootHelper">
+			<block name="cntMicrowaveOvenVer1Open" prob=".65"/>
+			<block name="cntMicrowaveOvenVer1Closed" prob=".35"/>
+		</placeholder>
+	</append>
+</config>

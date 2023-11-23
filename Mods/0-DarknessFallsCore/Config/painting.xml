@@ -1,0 +1,40 @@
+<config>
+	<!-- Custom paints are made possible by ocbMaurice's work! -->
+	<append xpath="/paints">
+		<paint id="scifi_wall_all_faces" name="txName_scifi_wall_all_faces" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+			<property name="Diffuse" value="#@modfolder:Assets/SciFiTextures.unity3d?Texture_2_Diffuse.png,Texture_2_Diffuse.png,Texture_2_Diffuse.png,Texture_2_Diffuse.png"/>
+			<property name="Normal" value="#@modfolder:Assets/SciFiTextures.unity3d?Texture_2_Normal.png,Texture_2_Normal.png,Texture_2_Normal.png,Texture_2_Normal.png"/>
+			<property name="Group" value="txGroupDecoration"/>
+			<property name="GlobalUV" value="False" />
+			<property name="SwitchUV" value="False" />
+			<property name="Color" value="0.4823529,0.3490196,0.2901961"/>
+			<property name="Material" value="metal" />
+			<property name="PaintCost" value="1" />
+			<property name="Hidden" value="false" />
+		</paint>
+		
+		<paint id="scifi_wall_line_all_faces" name="txName_scifi_wall_line_all_faces" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+			<property name="Diffuse" value="#@modfolder:Assets/SciFiTextures.unity3d?Texture_3_Diffuse.png,Texture_3_Diffuse.png,Texture_3_Diffuse.png,Texture_3_Diffuse.png"/>
+			<property name="Normal" value="#@modfolder:Assets/SciFiTextures.unity3d?Texture_3_Normal.png,Texture_3_Normal.png,Texture_3_Normal.png,Texture_3_Normal.png"/>
+			<property name="Group" value="txGroupDecoration"/>
+			<property name="GlobalUV" value="False" />
+			<property name="SwitchUV" value="False" />
+			<property name="Color" value="0.4823529,0.3490196,0.2901961"/>
+			<property name="Material" value="metal" />
+			<property name="PaintCost" value="1" />
+			<property name="Hidden" value="false" />
+		</paint>
+		
+		<paint id="scifi_floor_all_faces" name="txName_scifi_floor_all_faces" x="0" y="0" w="2" h="2" blockw="2" blockh="2">
+			<property name="Diffuse" value="#@modfolder:Assets/SciFiTextures.unity3d?Texture_5_Diffuse.png,Texture_5_Diffuse.png,Texture_5_Diffuse.png,Texture_5_Diffuse.png"/>
+			<property name="Normal" value="#@modfolder:Assets/SciFiTextures.unity3d?Texture_5_Normal.png,Texture_5_Normal.png,Texture_5_Normal.png,Texture_5_Normal.png"/>
+			<property name="Group" value="txGroupDecoration"/>
+			<property name="GlobalUV" value="False" />
+			<property name="SwitchUV" value="False" />
+			<property name="Color" value="0.4823529,0.3490196,0.2901961"/>
+			<property name="Material" value="wood" />
+			<property name="PaintCost" value="1" />
+			<property name="Hidden" value="false" />
+		</paint>
+	</append>
+</config>

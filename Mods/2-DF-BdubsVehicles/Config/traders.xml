@@ -1,0 +1,47 @@
+<configs>
+	<append xpath="/traders/trader_info[@id='9']/tier_items[@level='200,-1']">
+		<item name="vehicleUH60placeable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='10']/tier_items[@level='200,-1']">
+		<item name="vehicleUH60placeable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='11']/tier_items[@level='200,-1']">
+		<item name="vehicleUH60placeable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='12']/tier_items[@level='200,-1']">
+		<item name="vehicleUH60placeable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='13']/tier_items[@level='200,-1']">
+		<item name="vehicleUH60placeable" count="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='9']/tier_items[@level='200,-1']">
+		<item name="vehicleDusterplaceable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='10']/tier_items[@level='200,-1']">
+		<item name="vehicleDusterplaceable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='11']/tier_items[@level='200,-1']">
+		<item name="vehicleDusterplaceable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='12']/tier_items[@level='200,-1']">
+		<item name="vehicleDusterplaceable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='13']/tier_items[@level='200,-1']">
+		<item name="vehicleDusterplaceable" count="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='9']/tier_items[@level='200,-1']">
+		<item name="vehicleMD500placeable" count="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='10']/tier_items[@level='200,-1']">
+		<item name="vehicleMD500placeable" count="1"/>
+	</append>
+    <append xpath="/traders/trader_info[@id='11']/tier_items[@level='200,-1']">
+		<item name="vehicleMD500placeable" count="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='12']/tier_items[@level='200,-1']">
+		<item name="vehicleMD500placeable" count="1"/>
+	</append>
+	<append xpath="/traders/trader_info[@id='13']/tier_items[@level='200,-1']">
+		<item name="vehicleMD500placeable" count="1"/>
+	</append>
+</configs>
