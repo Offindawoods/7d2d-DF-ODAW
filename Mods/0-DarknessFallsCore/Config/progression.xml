@@ -1874,7 +1874,7 @@
 						tags="modGunScopeLarge,modGunTriggerGroupAutomatic,modGunRodAndSpring,modGunBowPolymerString,modMeleeErgonomicGrip,modMeleeClubMetalSpikes,modMeleeClubMetalChain,modMeleeIronBreaker,modArmorBandolier,modGunMeleeRadRemover,modGunMeleeBlessedMetal,modGunMeleeFeelTheHeat,modGunMeleeShredderAmmo,modChainsawHighRPMMotor,modGunRechargableBattery,modTurretMeleePowerBlow"/>				
 					<!-- Tier 3 Armor mods -->
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="5"
-						tags="modArmorPlatingReinforced,modArmorTripleStoragePocket,modArmorAdvancedMuffledConnectors,modArmorTacRiggingInt,modRadiationReadyBoots,modRadiationReadyPants,modRadiationReadyVest,modRadiationReadyHead,modRadiationReadyGloves"/>
+						tags="modArmorPlatingReinforced,modArmorTripleStoragePocket,modArmorAdvancedMuffledConnectors,modArmorTacRiggingInt,modRadiationReadyBoots,modRadiationReadyPants,modRadiationReadyVest,modRadiationReadyHead,modRadiationReadyGloves,DFresourceHazmatFiber"/>
 
 					<triggered_effect trigger="onPerkLevelChanged" action="AddBuff" target="self" buff="buffPerkAbilityUpdate"/>
 						
