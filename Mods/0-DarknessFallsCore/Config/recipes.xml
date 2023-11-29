@@ -2127,14 +2127,6 @@
 			<ingredient name="resourceYuccaFibers" count="100"/>
 		</recipe>
 
-		<recipe name="DFresourceHazmatFiber" count="20" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
-			<ingredient name="resourceAcid" count="1"/>
-			<ingredient name="resourceMilitaryFiber" count="20"/>
-			<ingredient name="resourceScrapLead" count="250"/>
-			<ingredient name="resourceDuctTape" count="10"/>
-			<ingredient name="resourceLeather" count="50"/>
-		</recipe>
-
 		<recipe name="resourceNail" count="1" material_based="false" craft_area="forge" craft_tool="toolAnvil" craft_time="5" tags="forgeCrafting">
 			<ingredient name="resourceScrapIron" count="1"/>
 			<ingredient name="resourceClayLump" count="1"/>
@@ -3935,6 +3927,14 @@
 			<ingredient name="resourceForgedSteel" count="20"/>
 			<ingredient name="resourceLeather" count="3"/>
 			<ingredient name="resourceDuctTape" count="3"/>
+		</recipe>
+
+		<recipe name="DFresourceHazmatFiber" count="20" craft_area="chemistryStation" tags="learnable,chemStationCrafting">
+			<ingredient name="resourceAcid" count="1"/>
+			<ingredient name="resourceMilitaryFiber" count="20"/>
+			<ingredient name="resourceScrapLead" count="250"/>
+			<ingredient name="resourceDuctTape" count="10"/>
+			<ingredient name="resourceLeather" count="50"/>
 		</recipe>
 
 		<!-- Security Mastery -->

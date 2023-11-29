@@ -15502,7 +15502,6 @@
 				<requirement name="!HasBuff" buff="buffIsOnFire"/>
 
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Water" operation="add" value="5"/>
-				<display_value name="dWaterAmountAdd" value="5"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffDysenteryCatchDrink">
 					<requirement name="RandomRoll" seed_type="Random" min_max="0,100" operation="LTE" value="20"/>
 				</triggered_effect>
